@@ -8,7 +8,7 @@ export function Find(){
 
     async function getData(e){
         try{
-           const response = await axios.get(`http://localhost:3001/api/employees/${id}`);
+           const response = await axios.get(`https://kanu-employee-record.onrender.com/api/employees/${id}`);
            setEmployee(response.data);
         }catch(err){
            setEmployee(null);
