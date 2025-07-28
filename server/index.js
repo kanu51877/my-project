@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-
+const port = 'https://kanu-employee-record1.onrender.com'
 
 const app = express();
 
@@ -105,6 +105,6 @@ app.put('/api/employees/:id', async (req, res) => {
     }
 });
 
-app.listen(3001, () => {
+app.listen({port}, () => {
     console.log(`server running`);
 });
