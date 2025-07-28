@@ -9,7 +9,7 @@ export function Add(){
     async function addHandler(e){
         e.preventDefault();
         try{
-            const response = await axios.post('http://localhost:3001/api/employees', {empNo, empName, empSal});
+            const response = await axios.post('https://kanu-employee-record.onrender.com/api/employees', {empNo, empName, empSal});
             //alert(JSON.stringify(response.data,null,2));
             alert(response.data.message);
  
