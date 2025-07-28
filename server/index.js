@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const port = 'https://my-project-1-8owr.onrender.com';
+const port = process.env.PORT || 3001;
 
 const app = express();
 
