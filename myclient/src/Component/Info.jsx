@@ -7,7 +7,7 @@ export function Info(){
     async function handleViewClick(e){
         e.preventDefault();
         try{
-            const response = await axios.get('http://localhost:3001/api/employees');
+            const response = await axios.get('https://kanu-employee-record.onrender.com/api/employees');
             setEmployees(response.data);
         }catch(error){
               alert(error);
