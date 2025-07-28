@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const port = 'https://kanu-employee-record1.onrender.com';
+const port = 'https://my-project-1-8owr.onrender.com';
 
 const app = express();
 
