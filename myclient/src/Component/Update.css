@@ -1,0 +1,19 @@
+.container-update {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-update h1 {
+    color: #fd7e14; /* A distinct color for update */
+    font-size: 30px;
+}
+
+.container-update form {
+    margin-top: 20px;
+}
+
